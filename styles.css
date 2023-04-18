@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    width: 100%;
+    max-width: 1440px;
+    background-image: url("images/Group\ 346.png");
+    background-repeat: no-repeat;
+    background-size: 600.14px;
+    background-position: top 70% right 20%;
+ 
+    /* left: 701.55px;
+    top: 110.19px; */
+}
+.flex-container {
+    display: flex;
+    display: inline-block; 
+    margin-left: 100px;
+}
+.flex-container h4 {
+    /* background-color: black; */
+    font-family: "PT Root UI Web";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #0C95E2;
+    text-align: left;
+    margin-top: 48;
+    margin-bottom: 18;
+}
+
+.mediumButton {
+    width: 192px;
+    height: 56px;
+    padding: 0;
+    border: 0;
+}
+
+
+.flex-container button:nth-child(2)  {
+    background: #0B95E2;
+    border-radius: 4px;
+    font-family: 'PT Root UI Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.flex-container button:nth-child(3) {
+    background: #6CEC82;
+    border-radius: 4px;
+    font-family: 'PT Root UI Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.flex-container img {
+    /* background-color: black; */
+    position: relative;
+    right: 25px;
+    top: 5px;
+}
+
+.nav {
+    display: flex;
+    margin-left: 100px;
+    padding-top: 32px;
+  }
+
+.navItem1 {
+    display: flex;
+
+}
+.navItem1 a:first-child {
+position: relative;
+top: 30px;
+padding: 0;
+}
+
+.navItem1 a:nth-child(2) {
+display: flex;
+align-items: center;
+color: #212E57;
+}
+
+
+.navItem2 {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.navItem2 li > a {
+    color: #212E57;
+    position: relative;
+    display: inline-block;
+}
+
+.navItem2 div {
+    display: flex;
+    align-items: center;
+}
+
+
+.vecList li  {
+    display: flex;
+    gap: 60px;
+    padding-left: 30px;
+}
+
+.vecList img {
+ position: relative;
+ bottom: 10px;
+}
+
+
+.nav a {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: white;
+  }
+
+.navItem3 {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 32px;
+    padding-left: 56px;
+}
+
+.navItem3 button:nth-child(1) {
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0C95E2;
+}
+.navItem3 button:nth-child(2) {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #0C95E2;
+    border: 2px solid #0C95E2;
+    gap: 10px;
+}
+
+.navItem3 button:nth-child(1):hover {
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+
+.navItem3 button:nth-child(2):hover {
+    border: 2px solid blue;
+}
+
+
+.header h1 {
+    margin-top: 82px;
+    width: 720px;
+    height: 162px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 0em;
+    line-height: 81px;
+    text-align: left;
+    margin-left: 96px;
+}
+.header p {
+    margin-top: 0;
+    width: 614px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 96px;
+}
+
+.header ul {
+    display: flex;
+    width: 608px;
+    margin-left: 96px;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.header ul > li {
+    height: 64px;
+    width: 240px;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 16px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    margin-right: 16px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.header ul > li:hover {
+    border: 2px solid #0C95E2;
+}
+
+.headerItem2 {
+position: relative;
+left: 631px;
+bottom: 180px;
+}
+
+
+
+    
+
+
